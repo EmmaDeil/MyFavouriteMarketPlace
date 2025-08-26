@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container-fluid'>
          <div className="row">
             <div className="col">
-               <img src="/imagelog.png" alt="Logo" style={{ width: '100px', height: 'auto' }}/>
+               <img src="MyFavouriteMarketPlace/public/imagelog.png" alt="Logo" style={{ width: '100px', height: 'auto' }}/>
             </div>
             <div className="col">
                <h6 style={{textTransform: 'uppercase', fontWeight: 'bold'}}>New to AgriHub?</h6>
