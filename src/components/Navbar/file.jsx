@@ -19,10 +19,10 @@ const file = () => {
                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                      <li className="nav-item">
-                        <Link className="nav-link active" aria-current="page" to="/">Sell on Agrihub</Link>
+                        <Link className="nav-link active" aria-current="page" to="/"></Link>
                      </li>
                      <li className="nav-item">
-                        <Link className="nav-link" to="/about">Store Locator</Link>
+                        <Link className="nav-link" to="/about"></Link>
                      </li>
                      <li className="nav-item dropdown">
                         <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-question-lg"></i>

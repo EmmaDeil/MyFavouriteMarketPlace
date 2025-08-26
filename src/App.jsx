@@ -4,7 +4,8 @@ import viteLogo from '/logo.ico'
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home';
-import About from './pages/About/About';
+import AboutPage from './pages/About/AboutPage';
+import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import PageTitle from './utils/Pagetitle';
@@ -18,7 +19,8 @@ function App() {
       <Routes>
         {/* <Route path="/cart" element={<Cart />} /> */}
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
