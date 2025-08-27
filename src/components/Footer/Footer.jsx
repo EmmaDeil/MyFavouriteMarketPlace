@@ -99,7 +99,7 @@ const Footer = () => {
                   <Button 
                     variant="link" 
                     className="text-light p-0 text-decoration-none opacity-75"
-                    onClick={() => onNavigate && onNavigate('AboutPage')}
+                    onClick={() => onNavigate && onNavigate('aboutpage')}
                   >
                     ℹ️ About Us
                   </Button>
