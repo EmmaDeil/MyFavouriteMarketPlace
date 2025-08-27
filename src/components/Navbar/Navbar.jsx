@@ -8,7 +8,7 @@ const Navbar = () => {
          <div className="container-fluid">
             <Link className="navbar-brand" to="/">
                Agri
-               <img src="MyFavouriteMarketPlace/public/imagelog.png" alt="Logo" width="30" height="30" className="d-inline-block align-text-top" />
+               <img src="/imagelog.png" alt="Logo" width="30" height="30" className="d-inline-block align-text-top" />
                Hub
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
