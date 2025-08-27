@@ -52,7 +52,7 @@ const Footer = () => {
          </div>
       </div> */}
     
-    <footer className="bg-dark text-white pt-5 pb-3">
+    <footer className="bg-dark text-white pt-5 pb-3 mt-2">
         <Container>
           <Row className="g-4">
             {/* Brand Column */}
@@ -99,7 +99,7 @@ const Footer = () => {
                   <Button 
                     variant="link" 
                     className="text-light p-0 text-decoration-none opacity-75"
-                    onClick={() => onNavigate && onNavigate('about')}
+                    onClick={() => onNavigate && onNavigate('AboutPage')}
                   >
                     ℹ️ About Us
                   </Button>

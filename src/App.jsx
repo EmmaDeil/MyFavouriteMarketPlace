@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/logo.ico'
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
@@ -19,7 +18,7 @@ function App() {
       <Routes>
         {/* <Route path="/cart" element={<Cart />} /> */}
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/aboutpage" element={<AboutPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container, Row, Col, Button, Card, Badge } from 'react-bootstrap';
 
 const Home = ({ onNavigate }) => {
   const features = [
