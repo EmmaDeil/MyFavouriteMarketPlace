@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -66,17 +67,17 @@ const Footer = () => {
                   fair prices, and sustainable agriculture across all 36 states.
                 </p>
                 <div className="d-flex gap-3">
-                  <Button variant="outline-success" size="sm" className="rounded-circle p-2">
-                    <i className="fab fa-facebook-f"></i>
+                  <Button variant="outline-success" size="sm" className="rounded-circle p-2" href="https://facebook.com" target="_blank">
+                    <i className="bi bi-facebook"></i>
                   </Button>
-                  <Button variant="outline-success" size="sm" className="rounded-circle p-2">
-                    <i className="fab fa-twitter"></i>
+                  <Button variant="outline-success" size="sm" className="rounded-circle p-2" href="https://twitter.com" target="_blank">
+                    <i className="bi bi-twitter-x"></i>
                   </Button>
-                  <Button variant="outline-success" size="sm" className="rounded-circle p-2">
-                    <i className="fab fa-instagram"></i>
+                  <Button variant="outline-success" size="sm" className="rounded-circle p-2" href="https://instagram.com" target="_blank">
+                    <i className="bi bi-instagram"></i>
                   </Button>
-                  <Button variant="outline-success" size="sm" className="rounded-circle p-2">
-                    <i className="fab fa-linkedin-in"></i>
+                  <Button variant="outline-success" size="sm" className="rounded-circle p-2" href="https://linkedin.com" target="_blank">
+                    <i className="bi bi-linkedin"></i>
                   </Button>
                 </div>
               </div>
@@ -87,40 +88,40 @@ const Footer = () => {
               <h5 className="fw-bold mb-3 text-success">Quick Links</h5>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <Button 
-                    variant="link" 
-                    className="text-light p-0 text-decoration-none opacity-75"
-                    onClick={() => onNavigate && onNavigate('marketplace')}
+                  <Link 
+                    to="/marketplace" 
+                    className="text-light p-0 text-decoration-none opacity-75 d-block"
+                    style={{ textDecoration: 'none' }}
                   >
                     🛒 Marketplace
-                  </Button>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <Button 
-                    variant="link" 
-                    className="text-light p-0 text-decoration-none opacity-75"
-                    onClick={() => onNavigate && onNavigate('aboutpage')}
+                  <Link 
+                    to="/aboutpage" 
+                    className="text-light p-0 text-decoration-none opacity-75 d-block"
+                    style={{ textDecoration: 'none' }}
                   >
                     ℹ️ About Us
-                  </Button>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <Button 
-                    variant="link" 
-                    className="text-light p-0 text-decoration-none opacity-75"
-                    onClick={() => onNavigate && onNavigate('contact')}
+                  <Link 
+                    to="/contactpage" 
+                    className="text-light p-0 text-decoration-none opacity-75 d-block"
+                    style={{ textDecoration: 'none' }}
                   >
                     📞 Contact
-                  </Button>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <Button 
-                    variant="link" 
-                    className="text-light p-0 text-decoration-none opacity-75"
-                    onClick={() => onNavigate && onNavigate('profiles')}
+                  <Link 
+                    to="/farmers" 
+                    className="text-light p-0 text-decoration-none opacity-75 d-block"
+                    style={{ textDecoration: 'none' }}
                   >
                     👨‍🌾 For Farmers
-                  </Button>
+                  </Link>
                 </li>
               </ul>
             </Col>
