@@ -1,5 +1,6 @@
 {
   "name": "myfavouritemarketplace",
+  "homepage": "https://eclef.github.io/MyFavouriteMarketPlace",
   "private": true,
   "version": "0.0.0",
   "type": "module",
